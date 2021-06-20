@@ -1,10 +1,14 @@
 {
     "version": 2,
+    "alias": [
+        "yd-cfcz.vercel.app"
+    ],
     "routes": [
         {
             "src": "/(.*)",
             "headers": {
-                "cache-control": "public, max-age=21600"
+                "cache-control": "public, max-age=21600",
+                "Access-Control-Allow-Origin":"https://yd-cfcz.vercel.app" 
             },
             "dest": "https://nci-yuan.disqus.com/$1"
         }

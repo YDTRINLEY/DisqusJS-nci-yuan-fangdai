@@ -8,7 +8,7 @@
             "src": "/(.*)",
             "headers": {
                 "cache-control": "public, max-age=21600",
-                "Access-Control-Allow-Origin":"https://yd-cfcz.vercel.app" 
+                "Access-Control-Allow-Origin":"https://ydtrinley.github.io" 
             },
             "dest": "https://nci-yuan.disqus.com/$1"
         }

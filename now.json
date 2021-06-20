@@ -6,7 +6,7 @@
             "headers": {
                 "cache-control": "public, max-age=21600"
             },
-            "dest": "https://nci-yuan.disqus.com/api/$1"
+            "dest": "https://nci-yuan.disqus.com/$1"
         }
     ],
     "github": {
